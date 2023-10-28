@@ -1,0 +1,36 @@
+body {
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    gap: 24px;
+    background-color: #343D4B;
+    width: 1440px;
+    height: 1024px;
+
+}
+
+.board {
+    display: flex;
+    border-radius: 30px;
+    background: linear-gradient(152deg, rgba(124, 193, 196, 0.9) -0.04%, rgba(83, 91, 230, 0.90) 100%),url("./images/board-bg.png");
+    color: white;
+    padding: 24px;
+    width: 493px;
+    height: 666px;
+    flex-shrink: 0;
+}
+
+.board-title {
+
+    width: 176px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
