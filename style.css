@@ -1,5 +1,8 @@
 body {
+    display: flex;
+    justify-content: center;
     background-color: #000000;
+    color: white;
 }
 
 .container {
@@ -8,13 +11,15 @@ body {
     background-color: #343D4B;
     width: 1440px;
     height: 1024px;
-
+    align-content: center;
+    justify-content: center;
 }
 
-.board {
+.board1 {
     display: flex;
+    flex-direction: column;
     border-radius: 30px;
-    background: linear-gradient(152deg, rgba(124, 193, 196, 0.9) -0.04%, rgba(83, 91, 230, 0.90) 100%),url("./images/board-bg.png");
+    background: linear-gradient(152deg, rgba(155, 218, 221, 0.9) -0.04%, rgba(83, 91, 230, 0.90) 100%),url("./images/board-bg.png");
     color: white;
     padding: 24px;
     width: 493px;
@@ -23,7 +28,7 @@ body {
 }
 
 .board-title {
-
+    display: flex;
     width: 176px;
     height: 38px;
     flex-shrink: 0;
@@ -34,3 +39,32 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+
+.data {
+    display: flex;
+    width: 154px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.board2 {
+    display: flex;
+    width: 520px;
+    height: 623px;
+    flex-shrink: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #222831;
+}
+
+.wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
