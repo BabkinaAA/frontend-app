@@ -4,6 +4,7 @@
     --font-prmary: 'Montserrat';
 
     display: flex;
+    
     background-color: linear-gradient(118deg, #1560D4 2.08%, rgba(180, 41, 166, 0.56) 101.39%);
     color: white;
     justify-content: center;
@@ -13,8 +14,8 @@
 .container {
     display: flex;
     background-color: #343D4B;
-    width: 1440px;
-    height: 1024px;
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -25,8 +26,8 @@
     background: linear-gradient(152deg, rgba(155, 218, 221, 0.9) -0.04%, rgba(83, 91, 230, 0.90) 100%),url("./images/board-bg.png");
     color: white;
     padding: 24px;
-    width: 493px;
-    height: 666px;
+    width: 25vw;
+    height: 60vh;
     flex-shrink: 0;
 }
 
@@ -44,7 +45,7 @@
     height: 38px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: var(--font-prmary);
+    font-family: Montserrat;
     font-size: 37px;
     font-style: normal;
     font-weight: 700;
@@ -124,8 +125,9 @@
 .board2 {
     display: flex;
     flex-direction: column;
-    width: 520px;
-    height: 623px;
+    justify-content: center;
+    width: 36%;
+    height: 61%;
     flex-shrink: 0;
     color: white;
 }
@@ -137,12 +139,15 @@
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     padding: 32px;
+    padding-top: 55px;
+    padding-left: 55px;
+    padding-bottom: 62px;
+    padding-right: 50px;
 }
 
 .top {
     display: flex;
     flex-direction: column;
-
 }
 
 .first {
@@ -161,7 +166,8 @@
     line-height: 34px;
     letter-spacing: 0em;
     text-align: left;
-
+    padding-bottom: 16px;
+    padding-right: 72px;
 }
 
 .line1-value {
@@ -175,6 +181,7 @@
     line-height: 34px;
     letter-spacing: 0em;
     text-align: right;
+    padding-bottom: 23px;
 }
 
 .second {
@@ -193,6 +200,8 @@
     line-height: 34px;
     letter-spacing: 0em;
     text-align: left;
+    padding-bottom: 16px;
+    padding-right: 72px;
 }
 
 .line2-value {
@@ -206,6 +215,7 @@
     line-height: 34px;
     letter-spacing: 0em;
     text-align: right;
+    padding-bottom: 29px;
 }
 
 .third {
@@ -224,6 +234,7 @@
     line-height: 34px;
     letter-spacing: 0em;
     text-align: left;
+    padding-bottom: 79px;
 }
 
 .line3-value {
@@ -245,8 +256,10 @@
     height: 165px;
     top: 481px;
     left: 748px;
+    padding-right: 48px;
+    padding-bottom: 71px;
     border-radius: 12px;
-    background: #272E37FC;
+    
 }
 
 .Tue {
@@ -300,6 +313,7 @@
     top: 481px;
     left: 854px;
     border-radius: 10px;
+    background: #272E37FC;
     box-shadow: 1px 2px 4px 0px #222831;
 }
 
@@ -339,6 +353,7 @@
     top: 481px;
     left: 958px;
     border-radius: 10px;
+    background: #272E37FC;
     box-shadow: 1px 2px 4px 0px #222831;
 }
 
@@ -378,6 +393,7 @@
     top: 481px;
     left: 1062px;
     border-radius: 10px;
+    background: #272E37FC;
     box-shadow: 1px 2px 4px 0px #222831;
 }
 
@@ -411,12 +427,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(90.8deg, rgba(144, 217, 224, 0.9) 0.2%, rgba(84, 96, 230, 0.9) 100%);
     width: 415px;
     height: 53px;
     top: 717px;
     left: 748px;
     border-radius: 10px;
-    background: linear-gradient(90.8deg, rgba(144, 217, 224, 0.9) 0.2%, rgba(84, 96, 230, 0.9) 100%);
+    
+
 }
 
 .text {
