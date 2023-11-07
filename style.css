@@ -1,6 +1,6 @@
 
 
-body {
+.body {
     --font-prmary: 'Montserrat';
 
     display: flex;
@@ -123,15 +123,311 @@ body {
 
 .board2 {
     display: flex;
+    flex-direction: column;
     width: 520px;
     height: 623px;
     flex-shrink: 0;
+    color: white;
 }
 
-
 .block2 {
+    display: flex;
+    flex-direction: column;
     background: #222831;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     padding: 32px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+}
+
+.line1-title {
+    Width: 275px;
+    Height: 35px;
+    Top: 264px;
+    Left: 748px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.line1-value {
+    width: 68px;
+    height: 22px;
+    top: 267px;
+    left: 1095px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.second {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.line2-title {
+    width: 275px;
+    height: 35px;
+    top: 315px;
+    left: 748px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.line2-value {
+    width: 68px;
+    height: 22px;
+    top: 318px;
+    left: 1095px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.third {
+    display: flex;
+    justify-content: space-around;
+}
+
+.line3-title {
+    width: 275px;
+    height: 35px;
+    top: 366px;
+    left: 748px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.line3-value {
+    width: 153px;
+    height: 22px;
+    top: 369px;
+    left: 1010px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.middle {
+    display: flex;
+    width: 415px;
+    height: 165px;
+    top: 481px;
+    left: 748px;
+    border-radius: 12px;
+    background: #272E37FC;
+}
+
+.Tue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFFFFF;
+    color: black;
+    width: 104px;
+    height: 168px;
+    top: 480px;
+    left: 750px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 0px #222831;
+}
+
+.weekdayTue {
+    width: 37px;
+    height: 24px;
+    top: 565px;
+    left: 784px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.temperatureTue {
+    width: 55px;
+    height: 24px;
+    top: 604px;
+    left: 774px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.Wed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 103px;
+    height: 165px;
+    top: 481px;
+    left: 854px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 0px #222831;
+}
+
+.weekdayWed {
+    width: 58px;
+    height: 24px;
+    top: 565px;
+    left: 876px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.temperatureWed {
+    width: 54.47px;
+    height: 23.57px;
+    top: 602.79px;
+    left: 877.77px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.Thu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 103px;
+    height: 165px;
+    top: 481px;
+    left: 958px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 0px #222831;
+}
+
+.weekdayThu {
+    width: 59px;
+    height: 24px;
+    top: 565px;
+    left: 980px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.temperatureThu {
+    width: 78px;
+    height: 23px;
+    top: 603px;
+    left: 970px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.Fry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 103px;
+    height: 165px;
+    top: 481px;
+    left: 1062px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 0px #222831;
+}
+
+.weekdayFry {
+    width: 54px;
+    height: 24px;
+    top: 565px;
+    left: 1086px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.temperatureFry {
+    width: 54.47px;
+    height: 23.57px;
+    top: 602.79px;
+    left: 1085.77px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 415px;
+    height: 53px;
+    top: 717px;
+    left: 748px;
+    border-radius: 10px;
+    background: linear-gradient(90.8deg, rgba(144, 217, 224, 0.9) 0.2%, rgba(84, 96, 230, 0.9) 100%);
+}
+
+.text {
+    width: 176px;
+    height: 24px;
+    top: 731px;
+    left: 888px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
 }
