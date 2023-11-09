@@ -138,7 +138,8 @@
     background: #222831;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    padding: 32px;
+    height: 81%;
+    width: 80%; 
     padding-top: 55px;
     padding-left: 55px;
     padding-bottom: 62px;
@@ -148,105 +149,77 @@
 .top {
     display: flex;
     flex-direction: column;
+    height: 33%;
+    width: 100%;
+    padding-bottom: 79px;
 }
 
 .first {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .line1-title {
-    Width: 275px;
-    Height: 35px;
-    Top: 264px;
-    Left: 748px;
     font-family: Montserrat;
     font-size: 28px;
     font-weight: 700;
     line-height: 34px;
-    letter-spacing: 0em;
     text-align: left;
     padding-bottom: 16px;
     padding-right: 72px;
 }
 
 .line1-value {
-    width: 68px;
-    height: 22px;
-    top: 267px;
-    left: 1095px;
     font-family: Montserrat;
     font-size: 28px;
     font-weight: 500;
     line-height: 34px;
-    letter-spacing: 0em;
     text-align: right;
     padding-bottom: 23px;
 }
 
 .second {
     display: flex; 
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .line2-title {
-    width: 275px;
-    height: 35px;
-    top: 315px;
-    left: 748px;
     font-family: Montserrat;
     font-size: 28px;
     font-weight: 700;
     line-height: 34px;
-    letter-spacing: 0em;
     text-align: left;
     padding-bottom: 16px;
     padding-right: 72px;
 }
 
 .line2-value {
-    width: 68px;
-    height: 22px;
-    top: 318px;
-    left: 1095px;
     font-family: Montserrat;
     font-size: 28px;
     font-weight: 500;
     line-height: 34px;
-    letter-spacing: 0em;
     text-align: right;
     padding-bottom: 29px;
 }
 
 .third {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .line3-title {
-    width: 275px;
-    height: 35px;
-    top: 366px;
-    left: 748px;
     font-family: Montserrat;
     font-size: 28px;
     font-weight: 700;
     line-height: 34px;
-    letter-spacing: 0em;
     text-align: left;
-    padding-bottom: 79px;
 }
 
 .line3-value {
-    width: 153px;
-    height: 22px;
-    top: 369px;
-    left: 1010px;
     font-family: Montserrat;
     font-size: 28px;
     font-weight: 500;
     line-height: 34px;
-    letter-spacing: 0em;
     text-align: right;
 }
 
@@ -256,7 +229,6 @@
     height: 165px;
     top: 481px;
     left: 748px;
-    padding-right: 48px;
     padding-bottom: 71px;
     border-radius: 12px;
     
@@ -343,20 +315,6 @@
     text-align: center;
 }
 
-.Thu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 103px;
-    height: 165px;
-    top: 481px;
-    left: 958px;
-    border-radius: 10px;
-    background: #272E37FC;
-    box-shadow: 1px 2px 4px 0px #222831;
-}
-
 .weekdayThu {
     width: 59px;
     height: 24px;
@@ -383,19 +341,6 @@
     text-align: center;
 }
 
-.Fry {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 103px;
-    height: 165px;
-    top: 481px;
-    left: 1062px;
-    border-radius: 10px;
-    background: #272E37FC;
-    box-shadow: 1px 2px 4px 0px #222831;
-}
 
 .weekdayFry {
     width: 54px;
