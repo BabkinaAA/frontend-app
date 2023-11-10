@@ -17,17 +17,17 @@
     width: 100vw;
     min-height: 100vh;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .board1 {
-    display: flex;
+    display: flex;   
+    padding: 40px;
+    width: 25vw;
+    min-height: 60vh;
     border-radius: 30px;
     background: linear-gradient(152deg, rgba(155, 218, 221, 0.9) -0.04%, rgba(83, 91, 230, 0.90) 100%),url("./images/board-bg.png");
     color: white;
-    padding: 24px;
-    width: 25vw;
-    height: 60vh;
     flex-shrink: 0;
 }
 
@@ -35,14 +35,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 48px;
-    padding-left: 32px;
-    padding-bottom: 84px;
+}
+
+.topleft {
+    margin: 20px;
+}
+
+.botleft {
+    margin: 20px;
 }
 
 .day {
-    width: 176px;
-    height: 38px;
     flex-shrink: 0;
     color: #FFF;
     font-family: Montserrat;
@@ -55,8 +58,6 @@
 
 .data {
     display: flex;
-    width: 154px;
-    height: 36px;
     flex-shrink: 0;
     color: #FFF;
     font-family: Montserrat;
@@ -72,15 +73,11 @@
 } 
 
 .mark {
-    width: 27px;
-    height: 27px;
     flex-shrink: 0;
     padding-right: 8px;
 }
 
 .place {
-    width: 113px;
-    height: 24px;
     flex-shrink: 0;
     color: #FFF;
     font-family: Montserrat;
@@ -92,15 +89,11 @@
 }
 
 .sun {
-    width: 95px;
-    height: 95px;
     flex-shrink: 0;
     padding-bottom: 9px;
 }
 
 .temp {
-    width: 134px;
-    height: 61px;
     color: #FFF;
     font-family: Montserrat;
     font-size: 50px;
@@ -111,8 +104,6 @@
 }
 
 .weather {
-    width: 144px;
-    height: 29px;
     flex-shrink: 0;
     color: #FFF;
     font-family: Montserrat;
@@ -126,8 +117,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30vw;
-    height: 55vh;
     flex-shrink: 0;
     color: white;
 }
@@ -138,8 +127,6 @@
     background: #222831;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    height: 81%;
-    width: 80%; 
     padding-top: 55px;
     padding-left: 55px;
     padding-bottom: 62px;
@@ -149,8 +136,6 @@
 .top {
     display: flex;
     flex-direction: column;
-    height: 33%;
-    width: 100%;
     padding-bottom: 79px;
 }
 
@@ -225,10 +210,6 @@
 
 .middle {
     display: flex;
-    width: 415px;
-    height: 165px;
-    top: 481px;
-    left: 748px;
     padding-bottom: 71px;
     border-radius: 12px;
     
@@ -236,24 +217,17 @@
 
 .Tue {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     background: #FFFFFF;
     color: black;
-    width: 104px;
-    height: 168px;
-    top: 480px;
-    left: 750px;
     border-radius: 10px;
     box-shadow: 1px 2px 4px 0px #222831;
 }
 
 .weekdayTue {
-    width: 37px;
-    height: 24px;
-    top: 565px;
-    left: 784px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 400;
@@ -263,10 +237,6 @@
 }
 
 .temperatureTue {
-    width: 55px;
-    height: 24px;
-    top: 604px;
-    left: 774px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 700;
@@ -277,23 +247,16 @@
 
 .Wed {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 103px;
-    height: 165px;
-    top: 481px;
-    left: 854px;
     border-radius: 10px;
     background: #272E37FC;
     box-shadow: 1px 2px 4px 0px #222831;
 }
 
 .weekdayWed {
-    width: 58px;
-    height: 24px;
-    top: 565px;
-    left: 876px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 400;
@@ -303,10 +266,6 @@
 }
 
 .temperatureWed {
-    width: 54.47px;
-    height: 23.57px;
-    top: 602.79px;
-    left: 877.77px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 700;
@@ -316,10 +275,6 @@
 }
 
 .weekdayThu {
-    width: 59px;
-    height: 24px;
-    top: 565px;
-    left: 980px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 400;
@@ -329,10 +284,6 @@
 }
 
 .temperatureThu {
-    width: 78px;
-    height: 23px;
-    top: 603px;
-    left: 970px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 700;
@@ -343,10 +294,6 @@
 
 
 .weekdayFry {
-    width: 54px;
-    height: 24px;
-    top: 565px;
-    left: 1086px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 400;
@@ -356,10 +303,6 @@
 }
 
 .temperatureFry {
-    width: 54.47px;
-    height: 23.57px;
-    top: 602.79px;
-    left: 1085.77px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 700;
@@ -373,20 +316,12 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(90.8deg, rgba(144, 217, 224, 0.9) 0.2%, rgba(84, 96, 230, 0.9) 100%);
-    width: 415px;
-    height: 53px;
-    top: 717px;
-    left: 748px;
     border-radius: 10px;
     
 
 }
 
 .text {
-    width: 176px;
-    height: 24px;
-    top: 731px;
-    left: 888px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 600;
