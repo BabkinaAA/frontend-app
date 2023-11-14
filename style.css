@@ -1,10 +1,12 @@
+@import './styles/bot-left.css';
+@import './styles/top-left.css';
+@import './styles/current-weather.css';
+@import './styles/forecast.css';
 
 
 .body {
     --font-prmary: 'Montserrat';
-
     display: flex;
-    
     background-color: linear-gradient(118deg, #1560D4 2.08%, rgba(180, 41, 166, 0.56) 101.39%);
     color: white;
     justify-content: center;
@@ -28,7 +30,6 @@
     border-radius: 30px;
     background: linear-gradient(152deg, rgba(155, 218, 221, 0.9) -0.04%, rgba(83, 91, 230, 0.90) 100%),url("./images/board-bg.png");
     color: white;
-    flex-shrink: 0;
 }
 
 .column {
@@ -37,81 +38,6 @@
     justify-content: space-between;
 }
 
-.top-left {
-    margin: 20px;
-}
-
-.top-left__day {
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 37px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-bottom: 16px;
-}
-
-.top-left__date {
-    display: flex;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding-bottom: 10px;
-}
-
-.top-left__location {
-    display: flex; 
-} 
-
-.top-left__location-mark {
-    flex-shrink: 0;
-    padding-right: 8px;
-}
-
-.top-left__location-place {
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding-top: 3px;
-}
-
-.bot-left {
-    margin: 20px;
-}
-
-.bot-left__weather-symbol {
-    flex-shrink: 0;
-    padding-bottom: 9px;
-}
-
-.bot-left__temp {
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-bottom: 13px;
-}
-
-.bot-left__weather {
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
 
 .right-block {
     display: flex;
@@ -127,121 +53,8 @@
     background: #222831;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    padding-top: 55px;
-    padding-left: 55px;
-    padding-bottom: 62px;
-    padding-right: 50px;
+    padding: 32px;
 }
-
-.current-weather {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 79px;
-}
-
-.current-weather__item {
-    display: flex;
-    justify-content: space-between;
-}
-
-.item-label {
-    font-family: Montserrat;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 34px;
-    text-align: left;
-    padding-bottom: 16px;
-    padding-right: 72px;
-}
-
-.item-value {
-    font-family: Montserrat;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 34px;
-    text-align: right;
-    padding-bottom: 29px;
-}
-
-.item-value {
-    font-family: Montserrat;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 34px;
-    text-align: right;
-    padding-bottom: 29px;
-}
-
-.forecast {
-    display: flex;
-    padding-bottom: 71px;
-    border-radius: 12px;
-    
-}
-
-.forecast__widget-today {
-    display: flex;
-    padding: 20px;
-    gap: 12px;
-    flex-grow: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    background: #FFFFFF;
-    color: black;
-    border-radius: 10px;
-    box-shadow: 1px 2px 4px 0px #222831;
-}
-
-.widget-today-name {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-
-.widget-today-temp-value {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: right;
-}
-
-.forecast__widget {
-    display: flex;
-    padding: 20px;
-    gap: 12px;
-    flex-grow: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 10px;
-    background: #272E37FC;
-    box-shadow: 1px 2px 4px 0px #222831;
-}
-
-.widget-day-name {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-
-.widget-temp-value {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-
 
 .location-button {
     display: flex;
@@ -249,8 +62,6 @@
     align-items: center;
     background: linear-gradient(90.8deg, rgba(144, 217, 224, 0.9) 0.2%, rgba(84, 96, 230, 0.9) 100%);
     border-radius: 10px;
-    
-
 }
 
 .location-button_text {
@@ -261,3 +72,26 @@
     letter-spacing: 0em;
     text-align: right;
 }
+
+@media (max-width: 800px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .left-block {
+      display: flex;
+      justify-content: center;
+      min-height: 50vh; 
+      min-width: 100vw;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .column {
+      display: flex;
+      justify-content: normal;
+    }
+  }

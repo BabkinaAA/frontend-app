@@ -1,0 +1,46 @@
+.top-left {
+    margin: 20px;
+}
+
+.top-left__day {
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+.top-left__date {
+    display: flex;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.top-left__location {
+    display: flex; 
+} 
+
+.top-left__location-mark {
+    flex-shrink: 0;
+    padding-right: 8px;
+}
+
+.top-left__location-place {
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 3px;
+}

@@ -1,0 +1,70 @@
+.forecast {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 71px;
+    border-radius: 12px;
+    
+}
+
+.forecast__widget-today {
+    display: flex;
+    padding: 20px;
+    gap: 12px;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 0px #222831;
+}
+
+.widget-today-name {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.widget-today-temp-value {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.forecast__widget {
+    display: flex;
+    padding: 20px;
+    gap: 12px;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background: #272E37FC;
+    box-shadow: 1px 2px 4px 0px #222831;
+}
+
+.widget-day-name {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.widget-temp-value {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}

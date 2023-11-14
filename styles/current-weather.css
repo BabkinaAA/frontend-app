@@ -1,0 +1,27 @@
+.current-weather {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.current-weather__item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.current-weather__item-label {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+.current-weather__item-value {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: right;
+}

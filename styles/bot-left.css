@@ -1,0 +1,29 @@
+.bot-left {
+    margin: 20px;
+}
+
+
+.bot-left__weather-symbol {
+    flex-shrink: 0;
+    padding-bottom: 9px;
+}
+
+.bot-left__temp {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 13px;
+}
+
+.bot-left__weather {
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
