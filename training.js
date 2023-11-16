@@ -13,7 +13,7 @@ function getMaxValue(number1, number2, number3) {
     else if (number1 < number2 < number3)
     return number2;
     else if (number1 < number3 < number2)
-    return Maxvalue = number3;
+    return number3;
 
 }
 console.log(getMaxValue(3, 7, 100));
