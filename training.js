@@ -7,19 +7,34 @@ console.log(getSum(4, -9));
 
 
 function getMaxValue(number1, number2, number3) {
-    let maxValue;
-    if (number2 < number1 < number3) 
-    return number1;
-    else if (number1 < number2 < number3)
-    return number2;
-    else if (number1 < number3 < number2)
-    return number3;
-
+    var max;
+    if (number1 > number2){
+        max = number1;
+    } else {
+        max = number2;
+    }
+    if (number3 > max){
+        max = number3
+    }
+    return max
 }
 console.log(getMaxValue(3, 7, 100));
-console.log(getMaxValue(4, -9, -10));
+console.log(getMaxValue(-3, -9, 20))
 
-function getMaxLengthString(arrayOfStrings) {
-    // 
+
+function getMaxLengthString(str1, str2, str3) {
+    var longest;
+    if (str1.length > str2.length){
+        longest = str1;
+    } else {
+        longest = str2;
+    }
+    if (str3.length > longest){
+        longest = str3;
+    }
+    return longest
 }
-console.log(getMaxLengthString(['Soup', 'Pasta', 'Water']));
+str1 = 'soup'
+str2 = 'kitkat'
+str3 = 'water'
+console.log(getMaxLengthString(str1, str2, str3));
